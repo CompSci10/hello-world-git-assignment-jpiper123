@@ -1,0 +1,81 @@
+    1  mkdir manhatten-zoo
+    2  cd manhatten-zoo
+    3  git init
+    4  touch meal-log.txt
+    5  git add meal-log.txt
+    6  git commit -m "what do the animals eat?"
+    7  git config j.piper@share.epsb.ca
+    8  git config jonathan piper
+    9  git commit -m "what do the animals eat?"
+   10  git config j.piper@share.epsb.ca
+   11  git config jonathan piper
+   12  git config j.piper@share.epsb.ca
+   13  git config jonathan
+   14  git config j.piper@share.epsb.ca
+   15  git config --global user.email j.piper@share.epsb.ca
+   16  git config --global user.name jonathan piper
+   17  git commit -m "what do the animals eat?"
+   18  nano meal-log.txt
+   19  git commit meal-log.txt -m "Animal food guide"
+   20  nano meal-log.txt
+   21  commit meal-log.txt -m "Animal food guide"
+   22  git commit -m "Animal food guide"
+   23  git commit meal-log.txt -m "Animal food guide"
+   24  git log
+   25  nano meal-log.txt
+   26  git log
+   27  git log > commit-history.txt
+   28  git clone https://github.com/CompSci10/hello-world-git-assignment-jpiper123.git
+   29  ls
+   30  cd hello-world-git-assignment-jpiper123/
+   31  ls
+   32  nano poem.txt
+   33  git commit -m "corrected the poem"
+   34  git add poem.txt
+   35  git commit -m "corrected the poem because someone tampered with it"
+   36  git branch mypoem
+   37  nano mypoem
+   38  git add mypoem
+   39  git commit -m "Replaced the animal in the poem"
+   40  nano mypoem
+   41  git commit -m "added who the poem was written by"
+   42  ls
+   43  cd hello-world-git-assignment
+   44  cd hello-world-git-assignment-jpiper123
+   45  nano mypoem
+   46  git commit -m "changed the animal again and fixed the lines"
+   47  git add mypoem
+   48  git commit -m "changed the animal again and fixed the lines"
+   49  git tag "v2.0
+   50  git tag -l
+   51  git tag -a v2.0 -m "Improved version"
+   52  git checkout master
+   53  git merge mypoem
+   54  git branch
+   55  ls
+   56  cd hello-world-git-assignment-jpiper123
+   57  git tag -a v2.0 -m "Improved version"
+   58  git show
+   59  cd hello-world-git-assignment-jpiper123
+   60  ls
+   61  git checkout master
+   62  git checkout mypoem
+   63  git tag -a v2.0 -m "Improved version"
+   64  git checkout master
+   65  git merge mypoem
+   66  git log
+   67  ls
+   68  cd hello-world-git-assignment-jpiper123
+   69  git log
+   70  ls
+   71  cd hello-world-git-assignment-jpiper123
+   72  git log
+   73  cd hello-world-git-assignment
+   74  cd hello-world-git-assignment-jpiper123
+   75  git reset 578249e
+   76  git commit -m "reverted to the original version"
+   77  terminal history > history.txt
+   78  git log
+   79  cd hello-world-git-assignment-jpiper123
+   80  terminal history > history.txt
+   81  history > history.txt
